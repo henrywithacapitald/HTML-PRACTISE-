@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <link rel="stylesheet" href="block.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline vs Block</title>
+  </head>
+  <body>
+    <p style="border:2px blue solid">
+      <!-- #blue for block level elements -->
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.  <strong>Debitis quaerat,
+      id provident impedit quisquam laborum. </strong> Iusto autem error repellat maxime
+      pariatur voluptates quisquam, accusamus alias odio tempore dolor ex quo.
+      <!-- Strong is a inline element since when you place it down it doesn't knock the text to a next line etc XD :) -->
+    </p>
+    <p style="border:2px blue solid"> <!-- You see it goes across the whole page and when you add another p tag it gets pushed down this is what a block element does -->
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
+      culpa, tempore sit unde ipsam labore quas accusamus facilis dicta ab.
+    </p>
+    <!-- This is a inline element -->
+    <!-- You see are inline element goes sideways doesnt get push to a new line because it does span all the way across thats the different between are inline and a block element -->
+   <a href="#" style="border:2px red solid">A Link</a><!-- # MEANS GO TO CURENT PAGE -->
+   <a href="#"" style="border:2px red solid">A Link</a><!-- # MEANS GO TO CURENT PAGE -->
+
+   <ul style="border:2px blue solid">
+       <li>Item</li>
+       <li>Item</li>
+       <li>Item</li>
+</ul>
+  </body>
 </html>
+
