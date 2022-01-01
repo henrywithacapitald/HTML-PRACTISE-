@@ -15,4 +15,9 @@
 #Do input:email it comes istanly
 # WINDOWS D OPTIONS D TO SELECT ALL THE VALUES TO CHANGE NEARBY
 #TAB TO PUSH THEM SHIFT TAB TO BRING THEM BACK
+#block element will span 100% width of the page across the whole page the next thing you put will push it down next line
+
+#Inline level elements doesnt span across the page it only takes up that space therefore the next thing you put is going to go to the side of it
+
+
   #<a href="Http://henrydoyle.me" target="_blank = will open a new tab when pressing it
