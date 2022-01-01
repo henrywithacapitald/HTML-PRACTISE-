@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms & Input</title>
+  </head>
+  <body>
+    <form action="process.php">
+        <!-- TEXT -->
+      <div>
+        <!-- divs sperates mark ups -->
+        <label for="names">Names</label>
+        <br /><!-- BOTH IDS ARE THE SAME SINCE IF YOU CLICK ON NAME IT HIGHLIGHTS THE FORM -->
+        <input type="text" id="names" name="name" value="John Doe" />
+        <!--  this is what is used for server side if you were using php and want to get the value you would use this ">BOTH IDS ARE THE SAME SINCE IF YOU CLICK ON NAME IT HIGHLIGHTS THE FORM -->
+      </div>
+      <!-- Email -->
+      <div>
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          name="mail"
+          id="email"
+          placeholder="Enter an email"
+        />
+        <!-- Do input:email it comes istanly -->
+      </div>
+      <!-- Text Area -->
+      <!-- Message -->
+      <div>
+        <label for="message">Message</label> <br />
+        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+      </div>
+<!-- Select -->
+      <div>
+        <label for="sex">Sex</label>
+        <select name="sex" id="Sex">
+          <option value="male">Males</option>
+          <option value="female" selected>Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <!-- Number -->
+      <div>
+        <label for="age">Age</label> <br />
+        <input type="number" name="age" id="age" />
+      </div>
+      <!-- Date -->
+      <div>
+        <label for="Birthdate">Birthdate</label> <br />
+        <input type="date" name="Birthdate" id="Birthdate" />
+      </div>
+      <!-- Radio -->
+      <div>
+        <label for="membership">Membership</label>
+        <input type="radio" name="membership" value="simple" id="membership" />
+        Simple
+        <input
+          type="radio"
+          name="membership"
+          value="simple"
+          id="standard"
+          checked
+        />
+        Standard
+        <input type="radio" name="membership" value="simple" id="super" /> Super
+      </div>
+      <!-- Checkbox -->
+      <div>
+        <label for="membership">I like...</label>
+        <input type="checkbox" name="likes" value="bike" id="likes" /> Bike
+        <input type="checkbox" name="likes" value="car" id="likes" checked />
+        Car <input type="checkbox" name="likes" value="boat" id="likes" /> boat
+      </div>
+      <!-- Input Submit -->
+      <input type="submit" value="Submit">
+      <!-- Using Button Tag -->
+      <!-- Button Submit -->
+      <!-- <button type="submit">Submit</button> -->
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

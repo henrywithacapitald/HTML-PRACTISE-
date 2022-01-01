@@ -12,5 +12,7 @@
 #ALT OR OPTION  AND ARROW KEYSTO GO TO THE LINE PART BY PART AND WINDOWS OR COMMAND HOLDING WINDOWS KEYS TO GO TO THE END OF THE LINE OR FRONT OF THE LINE ISTANTLY
 #alt descirbes the image if it doesnt read it for screenreaders and for google seo maybe
 #DONT DO WIDTH OR HEIGHT NOT RECCOMED THATS FOR CSS
-
+#Do input:email it comes istanly
+# WINDOWS D OPTIONS D TO SELECT ALL THE VALUES TO CHANGE NEARBY
+#TAB TO PUSH THEM SHIFT TAB TO BRING THEM BACK
   #<a href="Http://henrydoyle.me" target="_blank = will open a new tab when pressing it
