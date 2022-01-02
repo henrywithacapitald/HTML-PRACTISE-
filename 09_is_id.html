@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divs, span, id and class</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .enhance {
+color: yellow;
+background-color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="main-header" class="card">
+      <h1>My Website</h1>
+      <p>A site about me</p>
+    </div>
+    <ul id="main-nav" class="card">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+      <h3>About</h3>
+      <p> <!-- DIV PUSHES TO THE NEXT BLOCK WHILE SPAN IS AN INLINE ELEMENT AND DOESNT PUSH DOWN -->
+        Lorem ipsum dolor <div class="enhance"> sit amet consectetur adipisicing elit. Maxime
+        consectetur officiis delectus accusamus.</div>  Velit harum reiciendis,
+        voluptatibus <span class="enhance"> earum possimus pariatur minima ex tempore sed dignissimos
+        et rerum repudiandae non tenetur!</span>
+      </p>
+    </div><!-- div#about  or #about h1#about -->
+
+
+<div id="contact" class="card">
+
+    <h3>Contact Me</h3>
+    <ul>
+        <li>Address: 50 Main Street, Auckland, New Zealand</li>
+        <li>Phone: (64) 0210-604-303</li>
+        <li>Email: Henry@gmail.com</li>
+    </ul>
+</div>
+<div id="footer">
+     <p>Copyright &copy; 2022</p>
+</div>
+  </body>
+</html>

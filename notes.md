@@ -19,6 +19,10 @@
 
 #Inline level elements doesnt span across the page it only takes up that space therefore the next thing you put is going to go to the side of it
       #-- Strong is a inline element since when you place it down it doesn't knock the text to a next line etc XD #:) -->
+      #div#about =  <div id="about"></div>
 
-
+#div#about  or #about h1#about 
+#when to use and id or class there is no different however you can style them the same way however its good practise for your ids to always been individual meaning your not going to have a main header anywhere else however a class is where you can repeat some people don't use ids and shouldnt be repeated unlike classes which you can XD
+#div a block element which pushes the next things down
+  #DIV PUSHES TO THE NEXT BLOCK WHILE SPAN IS AN INLINE ELEMENT AND DOESNT PUSH DOWN
   #<a href="Http://henrydoyle.me" target="_blank = will open a new tab when pressing it
