@@ -26,3 +26,4 @@
 #div a block element which pushes the next things down
   #DIV PUSHES TO THE NEXT BLOCK WHILE SPAN IS AN INLINE ELEMENT AND DOESNT PUSH DOWN
   #<a href="Http://henrydoyle.me" target="_blank = will open a new tab when pressing it
+#header footer nav main section article aside
